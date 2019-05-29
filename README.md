@@ -1,4 +1,4 @@
-# Multi-Agent_Reinforcement_Learning_for_Liquidation_Strategy_Analysis
+# Multi-Agent Reinforcement Learning for Liquidation Strategy Analysis
 Source code for paper:Multi-agent reinforcement learning for liquidation strategy analysis accepted by ICML 2019 AI in Finance: Applications and Infrastructure for Multi-Agent Learning.
 
 ## Abstract
