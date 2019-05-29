@@ -31,12 +31,15 @@ The problem of an optimal liquidation strategy is investigated by using the Almg
 Comparison of expected implementation shortfalls: there are three agents $A, B1$ and $B2$. The expected shortfall of agent A is higher than the sum of two expected shortfalls $B_1$ and $B_2$
 
 ![theorem2](img/theorem2.png)
+
 Trading trajectory: comparing to their original trading trajectories, their current trading trajectories are closer to each other when they are trained in a multi-agent environment.
 
 
 ![graph3](img/Competition_and_Cooporation.png)
+
 Cooperative and competitive relationships: if two agents are in cooperative relationship, the total expected shortfall is not better than training with independent reward functions. If two agents are in a competitive relationship, they would first learn to minimize expected shortfall, and then malignant competition leads to significant implementation shortfall increment.
 
 
-![graph4](img/Have_Competition.png)
+![graph4](img/Have_Competitor.png)
+
 Trading trajectory: comparing to independent training, introducing a competitor makes the host agent learn to adapt to new environment and sell all shares of stock in the first two days
